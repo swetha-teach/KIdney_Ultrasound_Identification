@@ -1,0 +1,8 @@
+scoring_method,param,config,top1_acc,top3_acc,top5_acc,mrr
+cosine,5,cosine_k5,0.65,0.9,1.0,0.775
+cosine,10,cosine_k10,0.6,0.9,1.0,0.7417
+cosine,20,cosine_k20,0.55,0.9,1.0,0.7167
+svm,0.01,svm_nu0.01,0.4,0.75,1.0,0.6125
+svm,0.20,svm_nu0.20,0.4,0.75,1.0,0.6125
+svm,0.05,svm_nu0.05,0.4,0.75,1.0,0.61
+svm,0.10,svm_nu0.10,0.4,0.75,1.0,0.61

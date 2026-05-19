@@ -1,0 +1,10 @@
+Best Configuration
+==================
+Extractor     : dinov2_vits14
+Method        : svm
+Parameter     : 0.2
+Config key    : svm_nu0.20
+Top-1 Accuracy: 0.6500
+Top-3 Accuracy: 0.9500
+Top-5 Accuracy: 1.0000
+MRR           : 0.8042

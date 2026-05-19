@@ -1,0 +1,9 @@
+torch>=2.0.0
+torchvision>=0.15.0
+timm>=0.9.0
+scikit-learn>=1.3.0
+segment-anything
+numpy
+pandas
+Pillow
+tqdm

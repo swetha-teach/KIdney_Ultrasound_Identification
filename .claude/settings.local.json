@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip list *)",
+      "Read(//home/potat0/.cache/torch/hub/checkpoints/**)",
+      "Bash(python3 -c \"import timm\")",
+      "Bash(python3 -c \"import sklearn\")",
+      "Bash(python3 -c \"from segment_anything import sam_model_registry\")",
+      "Bash(pip install *)",
+      "Bash(python -c ' *)",
+      "Bash(python run_experiment.py --extractors resnet50)",
+      "WebSearch",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(python run_experiment.py --extractors efficientnet_b0 densenet121 convnext_tiny)",
+      "Bash(python -c \"import transformers; print\\(transformers.__version__\\)\")",
+      "Bash(pip show *)",
+      "Bash(python -c \"import huggingface_hub; print\\(huggingface_hub.__version__\\)\")",
+      "Bash(python run_experiment.py --extractors ultrasam)",
+      "Bash(ls -lh ~/.cache/ultrasam/ 2>/dev/null || echo \"Cache dir not yet created\" *)",
+      "Read(//home/potat0/.cache/ultrasam/**)",
+      "Bash(ls -lh ~/.cache/huggingface/hub/ 2>/dev/null && du -sh ~/.cache/huggingface/ 2>/dev/null | head -3)",
+      "Read(//home/potat0/.cache/huggingface/hub/**)",
+      "Bash(find ~/.cache/huggingface -name \"*.incomplete\" -o -name \"*.lock\" 2>/dev/null | head -5 *)",
+      "Read(//home/potat0/.cache/huggingface/**)",
+      "Bash(HF_HUB_ENABLE_HF_TRANSFER=0 python -c ' *)"
+    ]
+  }
+}
