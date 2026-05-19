@@ -1,0 +1,5 @@
+patient_id,image_path,max_similarity_to_kidney_reference,top5_mean_similarity_to_kidney_reference
+patient016,patient_folders/patient016/IMG-0001-00003.png,0.8539260029792786,0.837386965751648
+patient016,patient_folders/patient016/IMG-0001-00004.png,0.8533445596694946,0.8413423299789429
+patient016,patient_folders/patient016/IMG-0001-00001.png,0.754731297492981,0.731579601764679
+patient016,patient_folders/patient016/IMG-0001-00002.png,0.7249137163162231,0.7104467153549194
